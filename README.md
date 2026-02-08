@@ -1,43 +1,57 @@
-# Astro Starter Kit: Minimal
+# A Violet Tech LTD 💜
 
-```sh
-npm create astro@latest -- --template minimal
-```
+**Freelance Software Engineering Consultancy**  
+*Building Robust Web & Backend Solutions*
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 👋 About Us
 
-Inside of your Astro project, you'll see the following folders and files:
+At **A Violet Tech LTD**, we bridge the gap between complex backend systems and intuitive user interfaces. Founded by a former **SumUp** engineer, we bring fintech-grade quality, security, and scalability to every project.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+We specialize in modern **Web Applications**, **Android Development**, and **Scalable Backend Systems**.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🛠️ Services
 
-Any static assets, like images, can be placed in the `public/` directory.
+We provide a comprehensive range of software engineering services to help you build and scale your digital products:
 
-## 🧞 Commands
+- **💻 Web App Development**: Responsive, modern web apps using **React**, **Astro**, and **Next.js**.
+- **📱 Android App Development**: Native Android apps built with **Kotlin**.
+- **☁️ Cloud & Serverless**: Scalable architectures on **AWS** and **Google Cloud**.
+- **💳 Payments & POS Integration**: Custom Point of Sale systems and secure payment flows.
+- **🌍 Localization (i18n)**: Global scaling strategies.
+- **🚀 DevOps & CI/CD**: Automated pipelines for reliable deployment.
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 💻 Tech Stack
 
-## 👀 Want to learn more?
+**Frontend**: React, Astro, TypeScript, Tailwind CSS, Framer Motion  
+**Mobile**: Kotlin (Android)  
+**Backend**: Node.js, PostgreSQL, Redis, Firebase, AWS, Docker  
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+## 🌟 Featured Work
+
+### [composed.day](https://composed.day)
+A local-first personal planner app focused on privacy and speed. Built with advanced offline-sync capabilities and CRDTs.
+
+---
+
+## 📞 Get in Touch
+
+Ready to start your next project? Let's talk.
+
+- **Email**: [support@aviolet.dev](mailto:support@aviolet.dev)
+- **WhatsApp**: [+44 1923 549185](https://wa.me/441923549185)
+- **Location**: Remote / Worldwide
+
+---
+
+## 🧑‍💻 Development
+
+This portfolio website is built with **Astro**, **React**, and **Tailwind CSS**.
+
