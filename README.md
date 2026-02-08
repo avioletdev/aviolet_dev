@@ -36,7 +36,7 @@ We provide a comprehensive range of software engineering services to help you bu
 
 ## 🌟 Featured Work
 
-### [composed.day](https://composed.day)
+### composed.day (Beta)
 A local-first personal planner app focused on privacy and speed. Built with advanced offline-sync capabilities and CRDTs.
 
 ---
