@@ -1,0 +1,66 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { Hero } from '@/components/Hero';
+import { About } from '@/components/About';
+import { Services } from '@/components/Services';
+import { Contact } from '@/components/Contact';
+import { TechStack } from '@/components/TechStack';
+import { Projects } from '@/components/Projects';
+import { getImage } from "astro:assets";
+import ProfilePic from "../assets/ProfilePic.png";
+
+import DesktopScreen from "../assets/composed_day/desktop.png";
+import MobileScreen1 from "../assets/composed_day/mobile-1.png";
+import MobileScreen2 from "../assets/composed_day/mobile-2.png";
+import MobileScreen3 from "../assets/composed_day/mobile-3.png";
+import MobileScreen4 from "../assets/composed_day/mobile-4.png";
+import MobileScreen5 from "../assets/composed_day/mobile-5.png";
+import MobileScreen6 from "../assets/composed_day/mobile-6.png";
+import MobileScreen7 from "../assets/composed_day/mobile-7.png";
+import MobileScreen8 from "../assets/composed_day/mobile-8.png";
+import MobileScreen9 from "../assets/composed_day/mobile-9.png";
+
+const optimizedProfileImage = await getImage({src: ProfilePic, format: 'webp'});
+
+// Optimize Project Images
+const composedDayDesktop = await getImage({src: DesktopScreen, format: 'webp'});
+const composedDayMobile1 = await getImage({src: MobileScreen1, format: 'webp'});
+const composedDayMobile2 = await getImage({src: MobileScreen2, format: 'webp'});
+const composedDayMobile3 = await getImage({src: MobileScreen3, format: 'webp'});
+const composedDayMobile4 = await getImage({src: MobileScreen4, format: 'webp'});
+const composedDayMobile5 = await getImage({src: MobileScreen5, format: 'webp'});
+const composedDayMobile6 = await getImage({src: MobileScreen6, format: 'webp'});
+const composedDayMobile7 = await getImage({src: MobileScreen7, format: 'webp'});
+const composedDayMobile8 = await getImage({src: MobileScreen8, format: 'webp'});
+const composedDayMobile9 = await getImage({src: MobileScreen9, format: 'webp'});
+
+const projectsData = [
+  {
+    title: "composed.day",
+    description: "A local-first personal planner app focused on privacy and speed. Built with advanced offline-sync capabilities.",
+    tags: ["React", "Local-First", "CRDTs", "Tailwind"],
+    link: "https://composed.day",
+    desktopImage: composedDayDesktop.src,
+    mobileImages: [
+      composedDayMobile1.src,
+      composedDayMobile2.src,
+      composedDayMobile3.src,
+      composedDayMobile4.src,
+      composedDayMobile5.src,
+      composedDayMobile6.src,
+      composedDayMobile7.src,
+      composedDayMobile8.src,
+      composedDayMobile9.src
+    ]
+  }
+];
+---
+
+<Layout title="A Violet Tech LTD | Freelance Software Engineer">
+  <Hero client:load />
+  <TechStack client:visible />
+  <Services client:visible />
+  <Projects client:visible projects={projectsData} />
+  <About client:visible profileImage={optimizedProfileImage.src} />
+  <Contact client:visible />
+</Layout>
